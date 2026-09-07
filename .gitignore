@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# runtime artifacts
+logs/*.jsonl
+!logs/.gitkeep
+
+# editor/OS
+.vscode/
+.idea/
+.DS_Store
